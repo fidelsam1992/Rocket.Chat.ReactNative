@@ -803,7 +803,7 @@ const RocketChat = {
 	}) {
 		const params = {
 			name,
-			users,
+			members: users,
 			type: type ? TEAM_TYPE.PRIVATE : TEAM_TYPE.PUBLIC,
 			room: {
 				readOnly,
